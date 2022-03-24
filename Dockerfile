@@ -7,6 +7,7 @@ WORKDIR /app
 COPY package.json .
 COPY package-lock.json .
 COPY src src/
+COPY patches patches/
 COPY loki.config.js .
 COPY tsconfig.json .
 COPY loadEnv.js .
